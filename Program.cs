@@ -13,7 +13,8 @@ namespace Exercice_5
             string name;
             Console.WriteLine("Ecrivez votre nom suivi de votre prénom puis appuyez sur entrée");
             name = Console.ReadLine();
-            Console.WriteLine("Bonjour " + name + ", nous somme le " + DateTime.Now.ToLongDateString() + ", comment allez-vous?") ;
+            Console.WriteLine("Bonjour " + name + ", nous somme le " + DateTime.Now.ToLongDateString() + ", comment allez-vous?") ;//alternative   "DateTime.Now.ToShortDateString()
+                                                                                                                                   //datetime.ToString("dd/MM/yyyy)
 
 
            
